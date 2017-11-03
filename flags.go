@@ -22,3 +22,8 @@ func main() {
 		fmt.Printf("Hello %s\n", *name)
 	}
 }
+
+// flag.VisitAll(func(flag *flag.Flag) {
+     // format := "\t-%s: %s (Default: '%s')\n"
+     // fmt.Printf(format, flag.Name, flag.Usage, flag.DefValue)
+// })
